@@ -9,9 +9,9 @@ def using_unshift(array, string)
       array.unshift("Staten Island")
 end
 
-def using_pop(Array)
-      Array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-     conties = Array.pop
+def using_pop(array)
+      @continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+     conties = .pop
 end
 
 def pop_with_args(array)
